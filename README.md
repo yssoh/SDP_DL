@@ -21,7 +21,7 @@ Script_denoise_lrm.m
 Script_denoise_plot.m
 ** There appears to a problem with MATLAB if you attempt to execute these 
 four scripts from a separate script.  This problem does not occur if you 
-set ``parmode = 0'' (see [SINGLECORE]).
+set `parmode = 0` (see [SINGLECORE]).
 
 These scripts are intended to be run independently.  Please be cautioned 
 that these experiments take a long time to complete -- the full suite of 
@@ -29,7 +29,7 @@ experiments took about 4 days on a 16-core cloud computing service.
 
 If you discover bugs in the code or have difficulty running the experiments
 please contact me at
-`` matsys @ nus.edu.sg ''
+` matsys@nus.edu.sg `
 
 If you wish to have the output data from these experiments without running 
 the entire process please contact me at my email.
@@ -45,7 +45,7 @@ on larger datasets is part of on-going work -- if you have interest in
 developing software related to this project please contact me.
 
 ### [SINGLECORE]
-The code uses a ``parfor'' loop to parallelize the computation.  To 
+The code uses a `parfor` loop to parallelize the computation.  To 
 deactivate this setting make the following changes
-in ``/instances/gulls2set/lrm_denoise.'' set ''parmode = 0;'' in line 20
-in ``/instances/gulls2set/sv_denoise.'' set ''parmode = 0;'' in line 20
+1. in `/instances/gulls2set/lrm_denoise` set `parmode = 0;` in line 20
+1. in `/instances/gulls2set/sv_denoise` set `parmode = 0;` in line 20
